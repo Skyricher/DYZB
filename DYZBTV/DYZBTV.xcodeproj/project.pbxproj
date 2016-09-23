@@ -18,6 +18,10 @@
 		F9CBAB871D9417F000E4D107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CBAB861D9417F000E4D107 /* Assets.xcassets */; };
 		F9CBAB8A1D9417F000E4D107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CBAB881D9417F000E4D107 /* LaunchScreen.storyboard */; };
 		F9E5865F1D94D66900A6F325 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5865E1D94D66900A6F325 /* UIBarButtonItem-Extension.swift */; };
+		F9E5868A1D9507EF00A6F325 /* pageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E586891D9507EF00A6F325 /* pageTitleView.swift */; };
+		F9E5868C1D950A8400A6F325 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5868B1D950A8400A6F325 /* Common.swift */; };
+		F9E586901D9529C400A6F325 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5868F1D9529C400A6F325 /* PageContentView.swift */; };
+		F9E586921D952CA600A6F325 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E586911D952CA600A6F325 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		F9CBAB891D9417F000E4D107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9CBAB8B1D9417F000E4D107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9E5865E1D94D66900A6F325 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		F9E586891D9507EF00A6F325 /* pageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageTitleView.swift; sourceTree = "<group>"; };
+		F9E5868B1D950A8400A6F325 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F9E5868F1D9529C400A6F325 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		F9E586911D952CA600A6F325 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				F9E5865D1D94D63300A6F325 /* Extension */,
+				F9E5868B1D950A8400A6F325 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -154,6 +163,8 @@
 		F92DB8EE1D94C374009027EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F9E586891D9507EF00A6F325 /* pageTitleView.swift */,
+				F9E5868F1D9529C400A6F325 /* PageContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				F9E5865E1D94D66900A6F325 /* UIBarButtonItem-Extension.swift */,
+				F9E586911D952CA600A6F325 /* UIColor+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -273,8 +285,12 @@
 			files = (
 				F9CBAB801D9417F000E4D107 /* AppDelegate.swift in Sources */,
 				F919DD0C1D94BEFF009F37BA /* MainViewController.swift in Sources */,
+				F9E5868A1D9507EF00A6F325 /* pageTitleView.swift in Sources */,
+				F9E586901D9529C400A6F325 /* PageContentView.swift in Sources */,
 				F9E5865F1D94D66900A6F325 /* UIBarButtonItem-Extension.swift in Sources */,
+				F9E5868C1D950A8400A6F325 /* Common.swift in Sources */,
 				F92DB8F01D94C41D009027EC /* HomeViewController.swift in Sources */,
+				F9E586921D952CA600A6F325 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +453,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3A59DPHY8N;
 				INFOPLIST_FILE = DYZBTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amao24.DYZBTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,7 +468,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3A59DPHY8N;
 				INFOPLIST_FILE = DYZBTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amao24.DYZBTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
