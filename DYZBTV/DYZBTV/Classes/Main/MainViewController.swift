@@ -19,19 +19,21 @@ class MainViewController: UITabBarController {
         addChildVc(storyName: "Profile")
     
     }
-    
+    //添加子控制器方法
     private func addChildVc(storyName: String){
-    
+       
+        
         //1.通过storyboard获取控制器
-        
-        let childVc = UIStoryboard(name: storyName, bundle: nil).instantiateInitialViewController()!
-        
+        guard let childVc = UIStoryboard(name: storyName, bundle:nil).instantiateInitialViewController()
+            
+            else {
+             //如果不存在直接返回
+              return
+         
+               }
         //2.将childVc 作为子控制器
-        
         addChildViewController(childVc)
-        
 
-        
     }
 
    

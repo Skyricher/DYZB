@@ -5,10 +5,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Dbx-V7-loh">
             <objects>
-                <viewController id="O9s-bC-YL4" sceneMemberID="viewController">
+                <viewController id="O9s-bC-YL4" customClass="HomeViewController" customModule="DYZBTV" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cKk-Ey-Zof"/>
                         <viewControllerLayoutGuide type="bottom" id="B2e-Og-iSf"/>
@@ -22,13 +22,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6WE-Jr-h6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="462" y="-960"/>
+            <point key="canvasLocation" x="202" y="-950"/>
         </scene>
         <!--首页-->
         <scene sceneID="kem-aQ-XEY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="F2C-Hg-e3K" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_normal-1" id="g2e-qr-pyK"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="btn_home_normal" selectedImage="btn_home_normal-1" id="g2e-qr-pyK" customClass="H"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ck2-um-wDT">
