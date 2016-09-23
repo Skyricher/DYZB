@@ -5,10 +5,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="h9o-CS-YXt">
             <objects>
-                <tabBarController id="C8l-Iy-cBR" sceneMemberID="viewController">
+                <tabBarController id="C8l-Iy-cBR" customClass="MainViewController" customModule="DYZBTV" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="TDC-FE-gPX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -18,16 +18,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Go-dp-Cb2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2076" y="401"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="dAF-UO-LBB">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="QON-UD-P2C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="huW-im-MTr"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oP5-hJ-LB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1294" y="843"/>
         </scene>
     </scenes>
 </document>
